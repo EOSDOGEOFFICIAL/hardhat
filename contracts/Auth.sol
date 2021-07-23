@@ -1,6 +1,10 @@
 /**
  * Allows for contract ownership along with multi-address authorization
  */
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+
 abstract contract Auth {
     address internal owner;
     mapping (address => bool) internal authorizations;
