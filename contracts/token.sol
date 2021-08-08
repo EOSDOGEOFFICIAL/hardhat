@@ -193,8 +193,8 @@ contract SafeEarn is IBEP20, Auth {
     address ZERO = 0x0000000000000000000000000000000000000000;
     address DEAD_NON_CHECKSUM = 0x000000000000000000000000000000000000dEaD;
 
-    string constant _name = "SafeEarn";
-    string constant _symbol = "SAFEARN";
+    string constant _name = "SafeCAKE";
+    string constant _symbol = "SafeCAKE";
     uint8 constant _decimals = 9;
 
     uint256 _totalSupply = 1_000_000_000_000_000 * (10 ** _decimals);
